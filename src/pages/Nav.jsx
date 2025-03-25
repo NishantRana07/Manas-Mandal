@@ -17,7 +17,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-gray-800 p-4 fixed top-0 left-0 w-full z-10">
       <div className="flex justify-between items-center">
         <p className="text-2xl font-bold font-mono text-white">Manas Mandal</p>
         <div className="flex space-x-4">
