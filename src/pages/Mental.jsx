@@ -4,7 +4,7 @@ import Yoga from './Yoga';
 import Meditation from './Meditation';
 import Excercise from './Excercise';
 import yg from '../assets/Yoga (2).jpg'
-import md from '../assets/Meditation.jpg'
+import md from '../assets/meditation.jpg'
 import ex from '../assets/Excercises.jpg'
 const Mental = () => {
     const scrollRef=useRef(null);
