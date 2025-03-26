@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "name": "Downward Dog",
+      "image": "../src/assets/hero-pose.webp",
+      "description": "A foundational yoga pose that stretches the entire body.",
+      "steps": [
+        "Start on your hands and knees.",
+        "Lift your hips towards the ceiling.",
+        "Straighten your legs and press your heels towards the floor.",
+        "Keep your head relaxed and gaze at your feet."
+      ],
+      "techniques": [
+        "Keep your spine straight.",
+        "Distribute weight evenly between hands and feet.",
+        "Engage your core for stability."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tree Pose",
+      "image": "../assets/tree_pose.jpg",
+      "description": "A balancing pose that strengthens the legs and core.",
+      "steps": [
+        "Stand tall with your feet together.",
+        "Shift your weight onto one foot.",
+        "Place the sole of the other foot on your inner thigh or calf.",
+        "Bring your hands together in a prayer position at your chest."
+      ],
+      "techniques": [
+        "Focus on a fixed point to maintain balance.",
+        "Keep your standing leg strong and engaged.",
+        "Avoid placing your foot on the knee joint."
+      ]
+    }
+  ]
