@@ -1,6 +1,6 @@
 import {useState,React,useEffect} from 'react'
 import { Link } from 'react-router-dom';
-import MeditationIMG from '../assets/Meditation.jpg';
+import MeditationIMG from '../assets/meditation.jpg';
 
 const Meditation = () => {
   const [medData,setMedData] = useState([]);
