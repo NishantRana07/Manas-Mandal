@@ -1,10 +1,11 @@
 import {React,useRef} from 'react'
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import Yoga from './Yoga';
 import Meditation from './Meditation';
 import Excercise from './Excercise';
 import yg from '../assets/Yoga (2).jpg'
-import md from '../assets/meditation.jpg';
+import md from '../assets/meditation.jpg'
 import ex from '../assets/Excercises.jpg'
 const Mental = () => {
     const scrollRef=useRef(null);
@@ -30,14 +31,15 @@ const Mental = () => {
 
                     {/* Yoga Link */}
                     <div className="bg-red-200 relative h-68 w-58 flex-none rounded-sm overflow-hidden hover:border-red-400 border-2 hover:-translate-y-2 transition duration-500 ease-in-out">
-                    <img src={yg} alt="Yoga Image" className="object-cover w-full h-full" />
-                    {/* Text Overlay */}
-                      <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center p-4">
-                        <h3 className="text-white text-lg font-bold mb-2">Yoga</h3>
-                        <p className="text-white text-sm">
-                          Discover the benefits of yoga for mental and physical well-being.
-                        </p>
-                      </div>
+                      <Link to={`/yoga`}>
+                        <img src={yg} alt="Yoga Image" className="object-cover w-full h-full" />
+                        <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center p-4">
+                          <h3 className="text-white text-lg font-bold mb-2">Yoga</h3>
+                          <p className="text-white text-sm">
+                            Discover the benefits of yoga for mental and physical well-being.
+                          </p>
+                        </div>
+                      </Link>
                     </div>  
 
                     {/* Meditation Link */}
