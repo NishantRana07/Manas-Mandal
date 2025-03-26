@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import {React, useState, useRef } from "react";
 import {
   Select,
   SelectContent,
@@ -7,6 +7,9 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
+
+
+
 
 const Quiz = () => {
   const [btnName, setBtnName] = useState("Next");
@@ -104,6 +107,8 @@ const Quiz = () => {
   return (
     <div className="w-full h-screen flex justify-center items-center bg-gray-100 flex-col">
       {/* <h3 className="absolute top-4 text-2xl font-bold font-mono">Manas Mandal</h3> */}
+
+
       <div className="w-max p-12 gap-4 relative rounded-3xl shadow-lg">
         <p className="absolute top-4 left-4">{questionIndex}/21</p>
         <p className="text-2xl text-center font-bold mb-4 font-mono">DASS 21 Quiz</p>
