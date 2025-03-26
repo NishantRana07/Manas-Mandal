@@ -1,0 +1,45 @@
+
+{
+  "exercises": [
+    {
+      "id": "exercise-1",
+      "name": "Push-ups",
+      "image": "pushups.jpg",
+      "description": "A classic bodyweight exercise.",
+      "muscle_groups": ["chest", "triceps", "shoulders"],
+      "equipment": "None",
+      "instructions": [
+        "Start in a plank position with hands shoulder-width apart.",
+        "Lower your body until your chest nearly touches the floor.",
+        "Push back up to the starting position."
+      ]
+    },
+    {
+      "id": "exercise-2",
+      "name": "Squats",
+      "image": "squats.jpg",
+      "description": "A fundamental lower body exercise.",
+      "muscle_groups": ["quadriceps", "hamstrings", "glutes"],
+      "equipment": "None",
+      "instructions": [
+        "Stand with feet shoulder-width apart.",
+        "Lower your hips as if sitting in a chair.",
+        "Keep your back straight and chest up.",
+        "Return to the starting position."
+      ]
+    },
+    {
+      "id": "exercise-3",
+      "name": "Plank",
+      "image": "plank.jpg",
+      "description": "An excellent core exercise.",
+      "muscle_groups": ["core"],
+      "equipment": "None",
+      "instructions": [
+        "Start in a push-up position, but rest on your forearms.",
+        "Keep your body in a straight line from head to heels.",
+        "Hold the position for as long as possible."
+      ]
+    }
+  ]
+}

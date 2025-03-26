@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Mindfulness Meditation",
+    "description": "Focus on the present moment, observing thoughts and sensations without judgment.",
+    "duration": 10,
+    "benefits": ["Stress reduction", "Increased awareness", "Emotional regulation"],
+    "techniques": ["Body scan", "Breath awareness", "Walking meditation"],
+    "image": "mindfulness.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Loving-Kindness Meditation",
+    "description": "Cultivate feelings of love and kindness towards oneself and others.",
+    "duration": 15,
+    "benefits": ["Increased compassion", "Reduced negativity", "Improved relationships"],
+    "techniques": ["Metta meditation", "Sending loving-kindness phrases"],
+    "image": "loving-kindness.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Transcendental Meditation",
+    "description": "Use a mantra to transcend thought and experience a state of restful alertness.",
+    "duration": 20,
+    "benefits": ["Deep relaxation", "Reduced anxiety", "Improved focus"],
+    "techniques": ["Mantra repetition", "Silent meditation"],
+    "image": "transcendental.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Body Scan Meditation",
+    "description": "Bring awareness to different parts of your body, noticing sensations without judgment.",
+    "duration": 12,
+    "benefits": ["Increased body awareness", "Stress reduction", "Improved sleep"],
+    "techniques": ["Progressive muscle relaxation", "Focus on physical sensations"],
+    "image": "body-scan.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Walking Meditation",
+    "description": "Combine meditation with mindful walking, focusing on the sensations of movement.",
+    "duration": 15,
+    "benefits": ["Mindfulness in motion", "Stress reduction", "Improved balance"],
+    "techniques": ["Slow, deliberate walking", "Focus on footfalls and body sensations"],
+    "image": "walking.jpg"
+  }
+]

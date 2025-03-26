@@ -43,7 +43,8 @@ const Mental = () => {
                     </div>  
 
                     {/* Meditation Link */}
-                    <div className="bg-red-200 relative h-68 w-58 flex-none rounded-sm overflow-hidden hover:border-red-400 border-2 hover:-translate-y-2 transition  duration-500 ease-in-out"> 
+                    <div className="bg-red-200 relative h-68 w-58 flex-none rounded-sm overflow-hidden hover:border-red-400 border-2 hover:-translate-y-2 transition  duration-500 ease-in-out">
+                    <Link to={`/meditation`}>
                     <img src={md} alt="Meditation Image" className='object-cover w-full h-full' />
                     {/* Text Overlay */}
                     <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center p-4">
@@ -52,11 +53,13 @@ const Mental = () => {
                           Discover the benefits of Meditation for mental and physical well-being.
                         </p>
                       </div>
+                      </Link>
                     </div>  
                     
 
                     {/* Excercise Link */}
                     <div className="bg-red-200 relative h-68 w-58 flex-none rounded-sm overflow-hidden hover:border-red-400 border-2 hover:-translate-y-2 transition  duration-500 ease-in-out"> 
+                    <Link to={`/excercise`}>
                     <img src={ex} alt="Excercise Image" className='object-cover w-full h-full'/>
                     {/* Text Overlay */}
                     <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center p-4">
@@ -65,6 +68,7 @@ const Mental = () => {
                           Discover the benefits of Excercises for mental and physical well-being.
                         </p>
                       </div>
+                      </Link>
                     </div>  
                     
 
