@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "name": "Downward Dog",
+      "description": "A foundational yoga pose that stretches the entire body.",
+      "image": "../assets/downward_dog.jpg"
+      
+    },
+    {
+      "id": 2,
+      "name": "Tree Pose",
+      "description": "A balancing pose that strengthens the legs and core.",
+      "image": "../assets/tree_pose.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Downward Dog",
+        "description": "A foundational yoga pose that stretches the entire body.",
+        "image": "../assets/downward_dog.jpg"
+        
+      },
+      {
+        "id": 1,
+        "name": "Downward Dog",
+        "description": "A foundational yoga pose that stretches the entire body.",
+        "image": "../assets/downward_dog.jpg"
+        
+      },
+      {
+        "id": 1,
+        "name": "Downward Dog",
+        "description": "A foundational yoga pose that stretches the entire body.",
+        "image": "../assets/downward_dog.jpg"
+        
+      }
+  ]
