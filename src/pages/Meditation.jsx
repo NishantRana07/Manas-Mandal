@@ -10,7 +10,7 @@ const Meditation = () => {
   async function fetchmed()
   {
     try{
-      const response = await fetch('/public/meditation.json');
+      const response = await fetch('/meditation.json');
       if(!response.ok) {
         throw new Error('Network response was not ok');
       }
