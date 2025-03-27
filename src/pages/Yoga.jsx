@@ -40,7 +40,7 @@ const Yoga = () => {
           {yogaData.map((yg, index) => (
             <Link to={`/yoga/${yg.id}`} className="flex-none" key={index}>
               <div className="bg-red-200 relative h-68 w-58 flex-none rounded-sm overflow-hidden hover:border-red-400 border-2 hover:-translate-y-2 transition duration-500 ease-in-out">
-                <img src={YogaIMG} alt="Yoga Image" className="object-cover w-full h-full" />
+                <img src={yg.image} alt="Yoga Image" className="object-cover w-full h-full" />
                 <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center p-4">
                   <h3 className="text-white text-lg font-bold mb-2">{yg.name}</h3>
                   <p className="text-white text-sm">{yg.description}</p>

@@ -13,6 +13,12 @@ const Entertainment = () => {
             scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
             }
         };
+
+        async function fetchData()
+        {
+            const res=await fetch('../')
+        }
+        
     return (
         <>
         <div className='flex gap-4 overflow-x-auto scroll-smooth mt-4 z-0 relative'>
@@ -27,7 +33,7 @@ const Entertainment = () => {
                     </div>
                 </div>
 
-            <button onClick={scrollRight} className=" mt-auto mb-auto text-white bg-transparent bg-blur absolute z-10 top-1/2 right-5">
+            <button onClick={scrollRight} className="mt-auto mb-auto text-white bg-transparent bg-blur absolute z-10 top-1/2 right-5">
             <FaArrowCircleRight className='p-2 h-8 w-8  rounded-full bg-gray-900'/>
             </button>
         </div>
