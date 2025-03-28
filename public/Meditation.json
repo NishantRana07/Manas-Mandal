@@ -1,47 +1,135 @@
 [
   {
-    "id": 1,
+    "id": "exercise-1",
     "name": "Mindfulness Meditation",
-    "description": "Focus on the present moment, observing thoughts and sensations without judgment.",
-    "duration": 10,
-    "benefits": ["Stress reduction", "Increased awareness", "Emotional regulation"],
-    "techniques": ["Body scan", "Breath awareness", "Walking meditation"],
-    "image": "mindfulness.jpg"
+    "image": "mindfulness_meditation.jpg",
+    "description": "A practice that cultivates present-moment awareness and emotional balance.",
+    "benefits": ["reduces stress", "enhances self-awareness", "promotes emotional regulation"],
+    "equipment": "None",
+    "instructions": [
+      "Find a quiet, distraction-free space.",
+      "Sit comfortably with a straight but relaxed posture.",
+      "Close your eyes and focus on your breath.",
+      "Observe thoughts and emotions without judgment.",
+      "Expand awareness to bodily sensations and surroundings.",
+      "Gently return focus to the present if the mind wanders.",
+      "Start with a few minutes and increase gradually."
+    ]
   },
   {
-    "id": 2,
-    "name": "Loving-Kindness Meditation",
-    "description": "Cultivate feelings of love and kindness towards oneself and others.",
-    "duration": 15,
-    "benefits": ["Increased compassion", "Reduced negativity", "Improved relationships"],
-    "techniques": ["Metta meditation", "Sending loving-kindness phrases"],
-    "image": "loving-kindness.jpg"
+      "id": "exercise-2",
+      "name": "Loving-Kindness Meditation",
+      "image": "loving_kindness_meditation.jpg",
+      "description": "A meditation practice that fosters compassion, empathy, and emotional well-being.",
+      "benefits": ["promotes positivity", "reduces isolation", "enhances emotional connection"],
+      "equipment": "None",
+      "instructions": [
+        "Find a quiet, comfortable space and sit or lie down.",
+        "Close your eyes and take deep breaths to center yourself.",
+        "Begin with self-compassion, repeating phrases like 'May I be happy and healthy.'",
+        "Extend loving-kindness to loved ones, picturing them experiencing joy and peace.",
+        "Expand your compassion to acquaintances and even those you have conflicts with.",
+        "Include all beings, sending universal love and goodwill.",
+        "Take deep breaths, absorb the positive feelings, and reflect before ending."
+      ]    
   },
   {
-    "id": 3,
+    "id": "exercise-3",
+    "name": "Guided Visualization Meditation",
+    "image": "guided_visualization.jpg",
+    "description": "A meditation technique that uses imagination to create a sense of calm and relaxation.",
+    "benefits": ["reduces stress", "enhances positivity", "promotes deep relaxation"],
+    "equipment": "Optional (audio guide or relaxing music)",
+    "instructions": [
+      "Find a quiet, comfortable space free from distractions.",
+      "Sit or lie down, close your eyes, and take deep breaths to relax.",
+      "Set an intention, such as finding peace or self-love.",
+      "Follow a guided audio or facilitator’s instructions.",
+      "Visualize the described scene in vivid detail, engaging all your senses.",
+      "Immerse yourself in the emotions the visualization evokes.",
+      "If your mind wanders, gently return focus to the guided imagery.",
+      "Gradually transition back to the present moment as guided.",
+      "Reflect on your experience and journal any insights or emotions."
+    ]
+  },
+  {
+    "id": "exercise-4",
+    "name": "4-7-8 Breathing",
+    "image": "4_7_8_breathing.jpg",
+    "description": "A controlled breathing technique that promotes relaxation and reduces stress.",
+    "benefits": ["calms the nervous system", "reduces anxiety", "improves focus"],
+    "equipment": "None",
+    "instructions": [
+      "Sit comfortably with a straight back and relax your shoulders.",
+      "Inhale deeply through your nose for a count of 4.",
+      "Hold your breath for a count of 7.",
+      "Exhale slowly through your mouth for a count of 8.",
+      "Repeat the cycle for 4-8 rounds, maintaining a steady rhythm."
+    ]
+  },
+  {
+    "id": "exercise-5",
+    "name": "Focused Meditation",
+    "image": "focused_meditation.jpg",
+    "description": "A meditation practice that enhances concentration by focusing on a single object, sound, or sensation.",
+    "benefits": ["improves focus", "reduces stress", "enhances mindfulness"],
+    "equipment": "Optional (candle, mantra, sound, or object for focus)",
+    "instructions": [
+      "Find a quiet and comfortable space, free from distractions.",
+      "Sit in a relaxed yet alert posture and take deep breaths.",
+      "Choose a focal point such as your breath, a mantra, a candle flame, or a sound.",
+      "Direct your full attention to your chosen focus, immersing yourself in the experience.",
+      "If your mind wanders, gently bring it back to the focal point.",
+      "Continue the practice for 5-15 minutes, gradually increasing duration over time."
+    ]
+  },
+  {
+    "id": "exercise-6",
+    "name": "Movement Meditation",
+    "image": "movement_meditation.jpg",
+    "description": "A meditation practice that combines gentle movement with mindfulness to enhance body awareness and relaxation.",
+    "benefits": ["reduces stress", "improves body awareness", "enhances mindfulness"],
+    "equipment": "None (comfortable clothing recommended)",
+    "instructions": [
+      "Find an open space where you can move freely.",
+      "Start with slow, intentional movements such as walking, stretching, or yoga.",
+      "Focus on the sensation of movement, your breath, and how your body feels.",
+      "Stay present by observing each motion without judgment.",
+      "If your mind wanders, gently bring attention back to your movement.",
+      "Continue for 10-20 minutes, allowing yourself to flow naturally."
+    ]
+  },
+  {
+    "id": "exercise-7",
     "name": "Transcendental Meditation",
-    "description": "Use a mantra to transcend thought and experience a state of restful alertness.",
-    "duration": 20,
-    "benefits": ["Deep relaxation", "Reduced anxiety", "Improved focus"],
-    "techniques": ["Mantra repetition", "Silent meditation"],
-    "image": "transcendental.jpg"
+    "image": "transcendental_meditation.jpg",
+    "description": "A silent mantra-based meditation practice that promotes deep relaxation and inner peace.",
+    "benefits": ["reduces stress", "enhances self-awareness", "improves mental clarity"],
+    "equipment": "None",
+    "instructions": [
+      "Find a quiet and comfortable place to sit.",
+      "Close your eyes and take a few deep breaths to relax.",
+      "Silently repeat a personal mantra (a word or phrase) in your mind.",
+      "Let the mantra flow naturally without force or effort.",
+      "If your mind wanders, gently return to the mantra.",
+      "Continue for 15-20 minutes, then slowly open your eyes and rest before resuming activities."
+    ]
   },
   {
-    "id": 4,
-    "name": "Body Scan Meditation",
-    "description": "Bring awareness to different parts of your body, noticing sensations without judgment.",
-    "duration": 12,
-    "benefits": ["Increased body awareness", "Stress reduction", "Improved sleep"],
-    "techniques": ["Progressive muscle relaxation", "Focus on physical sensations"],
-    "image": "body-scan.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Walking Meditation",
-    "description": "Combine meditation with mindful walking, focusing on the sensations of movement.",
-    "duration": 15,
-    "benefits": ["Mindfulness in motion", "Stress reduction", "Improved balance"],
-    "techniques": ["Slow, deliberate walking", "Focus on footfalls and body sensations"],
-    "image": "walking.jpg"
-  }
+    "id": "exercise-8",
+    "name": "Visualization Meditation",
+    "image": "visualization_meditation.jpg",
+    "description": "A meditation technique that uses mental imagery to promote relaxation and positive thinking.",
+    "benefits": ["reduces stress", "enhances creativity", "promotes emotional well-being"],
+    "equipment": "Optional (guided audio or calming music)",
+    "instructions": [
+      "Find a quiet and comfortable space where you won’t be disturbed.",
+      "Sit or lie down, close your eyes, and take deep breaths to relax.",
+      "Visualize a peaceful scene, such as a beach, forest, or personal sanctuary.",
+      "Engage your senses—imagine the colors, sounds, and sensations of the scene.",
+      "Allow yourself to feel the emotions the visualization evokes, such as peace or joy.",
+      "If distractions arise, gently refocus on your mental image.",
+      "Continue for 10-20 minutes, then slowly return to the present moment."
+    ]
+  }      
 ]

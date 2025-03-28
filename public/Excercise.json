@@ -2,44 +2,105 @@
 {
   "exercises": [
     {
-      "id": "exercise-1",
-      "name": "Push-ups",
-      "image": "pushups.jpg",
-      "description": "A classic bodyweight exercise.",
-      "muscle_groups": ["chest", "triceps", "shoulders"],
-      "equipment": "None",
-      "instructions": [
-        "Start in a plank position with hands shoulder-width apart.",
-        "Lower your body until your chest nearly touches the floor.",
-        "Push back up to the starting position."
-      ]
-    },
-    {
-      "id": "exercise-2",
-      "name": "Squats",
-      "image": "squats.jpg",
-      "description": "A fundamental lower body exercise.",
-      "muscle_groups": ["quadriceps", "hamstrings", "glutes"],
-      "equipment": "None",
-      "instructions": [
-        "Stand with feet shoulder-width apart.",
-        "Lower your hips as if sitting in a chair.",
-        "Keep your back straight and chest up.",
-        "Return to the starting position."
-      ]
-    },
-    {
-      "id": "exercise-3",
-      "name": "Plank",
-      "image": "plank.jpg",
-      "description": "An excellent core exercise.",
-      "muscle_groups": ["core"],
-      "equipment": "None",
-      "instructions": [
-        "Start in a push-up position, but rest on your forearms.",
-        "Keep your body in a straight line from head to heels.",
-        "Hold the position for as long as possible."
-      ]
-    }
+    "id": "exercise-1",
+    "name": "Go for a Run",
+    "image": "running.jpg",
+    "description": "A natural way to boost mood, reduce stress, and improve overall mental and physical well-being.",
+    "benefits": ["boosts mood", "reduces stress", "improves cardiovascular health"],
+    "equipment": "Running shoes (optional: fitness tracker or smartwatch)",
+    "instructions": [
+      "Choose a safe and comfortable running route, such as a park or trail.",
+      "Wear breathable clothing and proper running shoes for support.",
+      "Start with a warm-up by walking or stretching for 5 minutes.",
+      "Begin running at a comfortable pace, focusing on steady breathing.",
+      "Maintain good posture and relax your shoulders while running.",
+      "Run for 10-30 minutes depending on your fitness level and comfort.",
+      "Cool down with a few minutes of walking and post-run stretching."
+    ]
+  },
+  {
+    "id": "exercise-2",
+    "name": "Lift Some Weights",
+    "image": "weightlifting.jpg",
+    "description": "Strength training can help boost mood, reduce anxiety, and improve overall mental and physical health.",
+    "benefits": ["boosts mood", "reduces stress", "builds strength and endurance"],
+    "equipment": "Dumbbells, kettlebells, or resistance bands (optional: barbell, weight machines)",
+    "instructions": [
+      "Choose a weight that is challenging but manageable for your fitness level.",
+      "Start with a 5-minute warm-up, including dynamic stretching or light cardio.",
+      "Perform compound exercises such as squats, deadlifts, or bench presses.",
+      "Focus on controlled movements and proper form to avoid injury.",
+      "Breathe consistently—inhale when lowering the weight, exhale when lifting.",
+      "Complete 3-4 sets of 8-12 reps per exercise, depending on your goal.",
+      "Cool down with stretching or foam rolling to relax muscles and prevent soreness."
+    ]
+  },
+  {
+    "id": "exercise-3",
+    "name": "Combine Yoga With Other Treatments",
+    "image": "yoga_combination.jpg",
+    "description": "Enhancing yoga practice by integrating it with other treatments like therapy, meditation, and a healthy lifestyle can maximize mental and physical well-being.",
+    "benefits": ["boosts mental health", "reduces stress and anxiety", "enhances overall well-being"],
+    "equipment": "Yoga mat (optional: meditation cushion, therapy sessions, wellness plan)",
+    "instructions": [
+      "Incorporate yoga into your daily routine along with therapy or counseling.",
+      "Combine yoga with mindfulness meditation to deepen relaxation and focus.",
+      "Pair yoga with physical exercise such as walking, running, or strength training.",
+      "Maintain a balanced diet to support both mental and physical health.",
+      "Ensure consistency in practice—try yoga at least 3-4 times a week.",
+      "Listen to your body and modify poses or techniques as needed.",
+      "Seek professional guidance if combining yoga with medical treatments."
+    ]
+  },
+  {
+    "id": "exercise-4",
+    "name": "Relieve Stress With Graceful Tai Chi Moves",
+    "image": "tai_chi.jpg",
+    "description": "A gentle, flowing movement practice that promotes relaxation, reduces stress, and improves balance and focus.",
+    "benefits": ["reduces stress and anxiety", "improves balance and coordination", "enhances mental clarity"],
+    "equipment": "None (comfortable clothing recommended)",
+    "instructions": [
+      "Find a quiet and open space where you can move freely.",
+      "Stand with feet shoulder-width apart, knees slightly bent, and arms relaxed.",
+      "Begin with deep breathing, focusing on slow and steady inhales and exhales.",
+      "Perform gentle, flowing movements such as ‘Wave Hands Like Clouds’ or ‘Grasp the Sparrow’s Tail.’",
+      "Move slowly and mindfully, coordinating your breath with each motion.",
+      "Maintain a soft focus and stay present in the moment.",
+      "Practice for 10-30 minutes, gradually increasing duration as you become comfortable."
+    ]
+  },
+  {
+    "id": "exercise-5",
+    "name": "Get a Healthy Dose of Sunlight",
+    "image": "sunlight.jpg",
+    "description": "Exposure to natural sunlight helps boost mood, regulate sleep, and increase vitamin D levels.",
+    "benefits": ["improves mood", "regulates sleep cycle", "boosts vitamin D levels"],
+    "equipment": "None (sunscreen recommended for prolonged exposure)",
+    "instructions": [
+      "Step outside in the morning or early afternoon for optimal sunlight exposure.",
+      "Choose an open space like a park, garden, or balcony to soak in natural light.",
+      "Expose your face, arms, and legs for at least 10-30 minutes, depending on skin sensitivity.",
+      "Engage in a relaxing activity like walking, meditating, or stretching while enjoying the sunlight.",
+      "Use sunscreen if staying out for an extended period to protect your skin.",
+      "Maintain a regular routine of sun exposure to support mental and physical health."
+    ]
+  },
+  {
+    "id": "exercise-6",
+    "name": "Break Out of a Funk by Bouncing",
+    "image": "bouncing.jpg",
+    "description": "Bouncing exercises, like jumping on a trampoline or doing jumping jacks, help boost energy, improve circulation, and lift your mood.",
+    "benefits": ["boosts energy", "improves circulation", "enhances mood"],
+    "equipment": "None (optional: mini trampoline, jump rope)",
+    "instructions": [
+      "Find a safe, open space where you can move freely.",
+      "Start with a gentle warm-up, such as light jogging in place or arm circles.",
+      "If using a trampoline, begin with small bounces and gradually increase intensity.",
+      "Try simple bouncing exercises like jumping jacks, knee-high jumps, or rope skipping.",
+      "Maintain a steady rhythm and focus on deep breathing.",
+      "Continue bouncing for 5-10 minutes, adjusting intensity as needed.",
+      "Cool down with gentle stretching to relax your muscles."
+    ]
+  }
   ]
 }
