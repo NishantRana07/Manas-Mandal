@@ -7,6 +7,9 @@ import Excercise from './Excercise';
 import yg from '../assets/Yoga (2).jpg'
 import md from '../assets/meditation.jpg'
 import ex from '../assets/Excercises.jpg'
+import per from '../assets/per.jpg'
+import sound from '../assets/sound.jpg'
+import breath from '../assets/Breathing.jpg'
 const Mental = () => {
     const scrollRef=useRef(null);
     const scrollLeft = () => {
@@ -74,15 +77,45 @@ const Mental = () => {
 
                     {/* Excercise Link */}
                     <div className="bg-red-200 relative h-68 w-58 flex-none rounded-sm overflow-hidden hover:border-red-400 border-2 hover:-translate-y-2 transition  duration-500 ease-in-out"> 
+                    <Link to={`/excercise`}>
+                    <img src={per} alt="Excercise Image" className='object-cover w-full h-full'/>
+                    {/* Text Overlay */}
+                    <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center p-4">
+                        <h3 className="text-white text-lg font-bold mb-2">Personality Test</h3>
+                        <p className="text-white text-sm">
+                          Get to know about your personality and yourself
+                        </p>
+                      </div>
+                      </Link>
                     </div>
 
                     {/* Excercise Link */}
-                    <div className="bg-red-200 relative h-68 w-58 flex-none rounded-sm overflow-hidden hover:border-red-400 border-2 hover:-translate-y-2 transition  duration-500 ease-in-out"> 
+                    <div className="bg-red-200 relative h-68 w-58 flex-none rounded-sm overflow-hidden hover:border-red-400 border-2 hover:-translate-y-2 transition  duration-500 ease-in-out">
+                    <Link to={`/sound`}>
+                    <img src={sound} alt="Excercise Image" className='object-cover w-full h-full'/>
+                    {/* Text Overlay */}
+                    <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center p-4">
+                        <h3 className="text-white text-lg font-bold mb-2">Sound Therapy</h3>
+                        <p className="text-white text-sm">
+                        Relax with soothing music and nature sounds.
+                        </p>
+                      </div>
+                      </Link> 
                     </div>
 
-                    {/* Excercise Link */}
-                    <div className="bg-red-200 relative h-68 w-58 flex-none rounded-sm overflow-hidden hover:border-red-400 border-2 hover:-translate-y-2 transition  duration-500 ease-in-out"> 
-                    </div>
+                {/* Excercise Link */}
+                <div className="bg-red-200 relative h-68 w-58 flex-none rounded-sm overflow-hidden hover:border-red-400 border-2 hover:-translate-y-2 transition  duration-500 ease-in-out">
+                    <Link to={`/sound`}>
+                    <img src={breath} alt="Excercise Image" className='object-cover w-full h-full'/>
+                    {/* Text Overlay */}
+                    <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center p-4">
+                        <h3 className="text-white text-lg font-bold mb-2">Breathing Excercises</h3>
+                        <p className="text-white text-sm">
+                        Relax with soothing music and nature sounds.
+                        </p>
+                      </div>
+                      </Link> 
+                  </div>
 
                 </div>
                 <button onClick={scrollRight} className="p-2 bg-gray-800 h-8 w-8 mt-auto mb-auto text-white rounded-full">
