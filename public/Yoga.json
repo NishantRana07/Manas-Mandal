@@ -1,129 +1,36 @@
 [
-  {
-    "id": "exercise-1",
-    "name": "Hero Pose (Virasana)",
-    "image": "hero_pose.jpg",
-    "description": "A seated yoga pose that promotes flexibility, posture, and mindfulness.",
-    "benefits": ["improves posture", "enhances focus", "stretches legs and ankles"],
-    "equipment": "Optional (yoga mat or cushion for support)",
-    "instructions": [
-      "Kneel on the floor with your knees together and feet slightly apart.",
-      "Sit back so your hips rest between your heels, keeping your back straight.",
-      "Place your hands on your thighs and relax your shoulders.",
-      "Close your eyes or soften your gaze, focusing on your breath.",
-      "Hold the pose for 1-5 minutes, breathing deeply and maintaining good posture.",
-      "To release, gently lift yourself back to a kneeling or seated position."
-    ]
-  },
-  {
-    "id": "exercise-2",
-    "name": "Tree Pose (Vrikshasana)",
-    "image": "tree_pose.jpg",
-    "description": "A balancing yoga pose that enhances focus, stability, and inner calm.",
-    "benefits": ["improves balance", "strengthens legs and core", "enhances concentration"],
-    "equipment": "None (yoga mat optional for grip)",
-    "instructions": [
-      "Stand tall with feet hip-width apart and arms at your sides.",
-      "Shift your weight onto one foot and lift the opposite foot off the ground.",
-      "Place the sole of your lifted foot on the inner thigh or calf of the standing leg (avoid the knee).",
-      "Bring your hands to a prayer position at your chest or raise them overhead.",
-      "Focus on a fixed point to maintain balance and breathe deeply.",
-      "Hold for 20-60 seconds, then switch sides and repeat."
-    ]
-  },
-  {
-    "id": "exercise-3",
-    "name": "Triangle Pose (Trikonasana)",
-    "image": "triangle_pose.jpg",
-    "description": "A standing yoga pose that stretches the legs, spine, and shoulders while improving balance and focus.",
-    "benefits": ["stretches legs and spine", "improves balance", "enhances flexibility"],
-    "equipment": "None (yoga mat optional for stability)",
-    "instructions": [
-      "Stand with your feet about 3-4 feet apart, turning one foot outward at a 90-degree angle.",
-      "Extend your arms parallel to the floor with palms facing down.",
-      "Hinge at your hip and reach toward the extended foot, lowering your hand to your shin, ankle, or the floor.",
-      "Extend the other arm straight up toward the ceiling, keeping your chest open.",
-      "Gaze at your raised hand or look forward if needed for balance.",
-      "Hold for 20-30 seconds, breathing deeply, then switch sides and repeat."
-    ]
-  },
-  {
-    "id": "exercise-4",
-    "name": "Standing Forward Bend (Uttanasana)",
-    "image": "standing_forward_bend.jpg",
-    "description": "A calming yoga pose that stretches the hamstrings, calves, and lower back while promoting relaxation.",
-    "benefits": ["relieves stress", "stretches the spine and legs", "improves circulation"],
-    "equipment": "None (yoga mat optional for comfort)",
-    "instructions": [
-      "Stand tall with feet hip-width apart and arms relaxed at your sides.",
-      "Inhale deeply and lengthen your spine.",
-      "Exhale and hinge forward from your hips, lowering your torso toward your legs.",
-      "Allow your head to relax, and let your hands rest on the floor, ankles, or shins.",
-      "Keep a slight bend in your knees if needed to avoid strain.",
-      "Hold for 20-30 seconds, breathing deeply, then slowly rise back to standing."
-    ]
-  },
-  {
-    "id": "exercise-5",
-    "name": "Extended Puppy Pose (Uttana Shishosana)",
-    "image": "extended_puppy_pose.jpg",
-    "description": "A yoga pose that stretches the spine, shoulders, and chest while promoting relaxation and stress relief.",
-    "benefits": ["relieves stress", "stretches the spine and shoulders", "opens the chest"],
-    "equipment": "None (yoga mat optional for comfort)",
-    "instructions": [
-      "Start in a tabletop position with your hands and knees on the mat.",
-      "Walk your hands forward while keeping your hips aligned above your knees.",
-      "Lower your chest towards the ground, resting your forehead on the mat.",
-      "Stretch your arms forward with palms pressing into the mat.",
-      "Breathe deeply and relax into the stretch, feeling the spine lengthen.",
-      "Hold for 20-30 seconds, then slowly return to a tabletop position."
-    ]
-  },
-  {
-    "id": "exercise-6",
-    "name": "Child’s Pose (Balasana)",
-    "image": "childs_pose.jpg",
-    "description": "A gentle resting yoga pose that promotes relaxation, stretches the back, and relieves stress.",
-    "benefits": ["relieves stress", "stretches the lower back and hips", "calms the nervous system"],
-    "equipment": "None (yoga mat optional for comfort)",
-    "instructions": [
-      "Start in a kneeling position with your big toes touching and knees apart.",
-      "Sit back onto your heels and extend your arms forward on the mat.",
-      "Lower your forehead to the ground and relax your shoulders and back.",
-      "Breathe deeply, allowing your body to release tension with each exhale.",
-      "Hold for 30 seconds to a few minutes, then slowly return to a seated position."
-    ]
-  },
-  {
-    "id": "exercise-7",
-    "name": "Seated Forward Bend (Paschimottanasana)",
-    "image": "seated_forward_bend.jpg",
-    "description": "A calming yoga pose that deeply stretches the spine, hamstrings, and lower back while promoting relaxation.",
-    "benefits": ["relieves stress", "stretches the spine and hamstrings", "improves flexibility"],
-    "equipment": "None (yoga mat optional for comfort)",
-    "instructions": [
-      "Sit on the floor with your legs extended straight in front of you.",
-      "Inhale and lengthen your spine, sitting up tall.",
-      "Exhale and hinge forward from your hips, reaching toward your feet.",
-      "Keep your back straight and avoid rounding your spine.",
-      "Rest your hands on your shins, ankles, or feet, depending on flexibility.",
-      "Hold for 20-30 seconds, breathing deeply, then slowly return to an upright position."
-    ]
-  },
-  {
-    "id": "exercise-8",
-    "name": "Reclining Bound Angle Pose (Supta Baddha Konasana)",
-    "image": "reclining_bound_angle_pose.jpg",
-    "description": "A restorative yoga pose that gently opens the hips, stretches the inner thighs, and promotes relaxation.",
-    "benefits": ["relieves stress", "opens the hips and inner thighs", "calms the nervous system"],
-    "equipment": "Optional (yoga mat, bolster, or blanket for support)",
-    "instructions": [
-      "Lie on your back with your knees bent and feet flat on the floor.",
-      "Bring the soles of your feet together, allowing your knees to drop outward.",
-      "Rest your arms at your sides with palms facing up.",
-      "Close your eyes and breathe deeply, relaxing your hips and thighs.",
-      "Hold the pose for 1-5 minutes, allowing your body to fully relax.",
-      "To release, gently bring your knees together and stretch your legs out straight."
-    ]
-  }                  
-]
+    {
+      "id": 1,
+      "name": "Downward Dog",
+      "description": "A foundational yoga pose that stretches the entire body.",
+      "image": "../assets/meditation.jpg"
+      
+    },
+    {
+      "id": 2,
+      "name": "Tree Pose",
+      "description": "A balancing pose that strengthens the legs and core.",
+      "image": "../assets/tree_pose.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Downward Dog",
+        "description": "A foundational yoga pose that stretches the entire body.",
+        "image": "../assets/downward_dog.jpg"
+        
+      },
+      {
+        "id": 1,
+        "name": "Downward Dog",
+        "description": "A foundational yoga pose that stretches the entire body.",
+        "image": "../assets/downward_dog.jpg"
+        
+      },
+      {
+        "id": 1,
+        "name": "Downward Dog",
+        "description": "A foundational yoga pose that stretches the entire body.",
+        "image": "../assets/downward_dog.jpg"
+        
+      }
+  ]

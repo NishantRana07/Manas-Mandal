@@ -2,12 +2,14 @@
     {
       "id": 1,
       "name": "Movie Suggestion Bot",
+      "link":"/MovieBot",
       "bgImg": "Movie.jpg",
       "description": "This bot suggests movies based on user preferences."
     },
     {
       "id": 2,
       "name": "Song Suggestion Bot",
+      "link":"/SongBot",
       "bgImg": "Music.jpg",
       "description": "This bot suggests songs based on user mood and preferences."
     },
@@ -15,18 +17,21 @@
       "id": 3,
       "name": "Youtube video suggestion Bot",
       "bgImg": "youtube.jpg",
+      "link":"/YoutubeBot",
       "description": "This bot suggests Youtube videos based on user input."
     },
     {
       "id": 4,
       "name": "Workout Routine Generator",
       "bgImg": "Workout.jpg",
+      "link":"/WorkoutBot",
       "description": "This bot generates a personalized workout routine based on user preferences."
     },
     {
       "id": 5,
       "name": "Nutrition Tracker",
       "bgImg": "Meal.jpg",
+      "link":"/NutritionBot",
       "description": "This bot helps users track their daily nutrition intake."
     }
 ]
