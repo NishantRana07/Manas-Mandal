@@ -1,0 +1,65 @@
+.full {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-top:80px;
+    margin-left:100px;
+    height:500px;
+    
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.upper {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family:gidole;
+}
+
+.left p:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.lower
+{
+    font-family:roboto;
+}
+.left div {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.imgRight {
+    width: 90%;
+    max-width: 400px;
+    
+}
+
+@media (max-width: 768px) {
+    .full {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left {
+        align-items: center;
+    }
+
+    .left div {
+        justify-content: center;
+    }
+}

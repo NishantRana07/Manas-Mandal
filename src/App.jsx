@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {useState} from 'react';
+import Hero from './pages/hero'
 import Quiz from "./pages/Quiz";
 import Nav from "./pages/Nav";
 import Threapists from "./pages/Threapists";
@@ -12,6 +13,12 @@ import Footer from './pages/Footer';
 import Asna from './pages/Asna';
 import Med from './pages/Meditation';
 import Exc from './pages/Excercise'
+import YoutubeBot from './pages/Additional/YoutubeBot';
+import NutritionBot from './pages/Additional/NutritionBot';
+import SongBot from './pages/Additional/SongBot';
+import WorkoutBot from './pages/Additional/WorkoutBot'
+import MovieBot from './pages/Additional/MovieBot';
+
 // Homepage Layout
 const Home = () => {
 
@@ -19,9 +26,7 @@ const Home = () => {
     return (
         <>
             <Nav />
-            <div className="h-screen flex flex-col">
-                <Quiz />
-            </div>
+            <Hero/>
 
             {/* Therapist Section */}
             <div className='border-t-4 border-blue-900 p-4 pl-8 pr-8 text-center w-full  overflow-x-hidden'>
@@ -72,6 +77,17 @@ const YogaPage = () => {
     );
 };
 
+const Quizz = () =>
+{
+    return (
+        <>
+            <Nav />
+            <Quiz />
+            <Footer />
+        </>
+    );
+}
+
 const Asnas = ()=>
 {
     return(
@@ -104,13 +120,67 @@ const Excercise = () =>
     )
 }
 
+const YBot=()=>
+{
+    return(
+        <>
+            <Nav />
+            <YoutubeBot/>
+            <Footer />
+        </>
+    );
+}
+
+const MBot=()=>
+    {
+        return(
+            <>
+                <Nav />
+                <MovieBot/>
+                <Footer />
+            </>
+        );
+    }
+
+const SBot=()=>
+{
+    return(
+        <>
+            <Nav />
+            <SongBot/>
+            <Footer />
+        </>
+    );
+}
+
+const NBot=()=>
+    {
+        return(
+            <>
+                <Nav />
+                <NutritionBot/>
+                <Footer />
+            </>
+        );
+    }
+
+    const WBot=()=>
+        {
+            return(
+                <>
+                    <Nav />
+                    <WorkoutBot/>
+                    <Footer />
+                </>
+            );
+        }
 // Main App Component with Routing
 const App = () => {
     return (
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/quiz" element={<Quiz />} />
+                <Route path="/quiz" element={<Quizz />} />
                 <Route path="/therapists" element={<Threapists />} />
                 <Route path="/mental" element={<Mental />} />
                 <Route path="/games" element={<Games />} />
@@ -120,6 +190,11 @@ const App = () => {
                 <Route path="/yoga/:id" element={<Asnas/>} />
                 <Route path="/meditation" element={<Meditation/>} />
                 <Route path="/excercise" element={<Excercise/>} />
+                <Route path="/YoutubeBot" element={<YBot/>} />
+                <Route path="/SongBot" element={<SBot/>} />
+                <Route path="/WorkoutBot" element={<WBot/>} />
+                <Route path="/NutritionBot" element={<NBot/>} />
+                <Route path="/MovieBot" element={<MBot/>} />
             </Routes>
         </Router>
     );
