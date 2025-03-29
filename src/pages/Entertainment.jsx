@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
+import {Link} from 'react-router-dom';
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 
 const Entertainment = () => {
@@ -64,6 +65,7 @@ const Entertainment = () => {
           className="flex gap-4 overflow-x-auto scroll-smooth scrollbar-hidden pt-8 pb-8"
         >
           {entertainmentData.map((item, index) => (
+            <Link to={item.link}>
             <div key={index} className="bg-red-200 relative h-68 w-58 flex-none rounded-sm overflow-hidden hover:border-red-400 border-2 hover:-translate-y-2 transition duration-500 ease-in-out">
             
               <img src={item.bgImg} alt={item.name} className="object-cover w-full h-full" />
@@ -75,6 +77,7 @@ const Entertainment = () => {
               </div>
             
           </div>  
+          </Link>
           ))}
         </div>
 
