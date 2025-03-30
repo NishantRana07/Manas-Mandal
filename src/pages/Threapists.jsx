@@ -36,11 +36,11 @@ const Threapists = () => {
                 {/* Details */}
                 <div className="text-black text-[10px] p-1 text-start font-semibold">
                 <p>Name: Nishant</p>
-                <p>Description: Nishant is not good at talking to ladiz</p>
+                <p>Description: Description of therapists</p>
                 </div>
 
                 {/* Button */}
-                <button className="text-[10px] bg-blue-600  w-36 text-white rounded flex items-center gap-1 px-2 py-1">
+                <button className="text-[10px] bg-blue-600 h-12 w-36 text-white rounded flex items-center gap-1 px-2 py-1">
                 <img src={icon} className="h-4 w-4" alt="icon" />
                 <p>Connect</p>
                 </button>
@@ -59,7 +59,7 @@ const Threapists = () => {
                 {/* Details */}
                 <div className="text-black text-[10px] p-1 text-start font-semibold">
                 <p>Name: Nishant</p>
-                <p>Description: Nishant is not good at talking to ladiz</p>
+                <p>Description: Description of therapists</p>
                 </div>
 
                 {/* Button */}

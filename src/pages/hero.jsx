@@ -19,7 +19,9 @@ const hero = () => {
                 <Link to={`/quiz`}>
                 <button className='p-2 bg-black text-white'>DASS21</button>
                 </Link>
+                <Link to={`/dass`}>
                 <button className='p-2 bg-black text-white'>DASS42</button>
+                </Link>
             </div>
         </div>
         <div className='Right'>
