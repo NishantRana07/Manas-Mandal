@@ -11,6 +11,7 @@ import Chatbots from './pages/Chatbots';
 import Yoga from './pages/Yoga';
 import Footer from './pages/Footer';
 import Asna from './pages/Asna';
+import dass from './pages/Dass';
 import Med from './pages/Meditation';
 import Exc from './pages/Excercise'
 import YoutubeBot from './pages/Additional/YoutubeBot';
@@ -40,11 +41,11 @@ const Home = () => {
                 <Mental />
             </div>
 
-            {/* Games Section */}
+            {/*
             <div className='border-t-4 border-blue-900 p-4 pl-8 pr-8 text-center w-full  overflow-x-hidden'>
                 <p className='text-xl font-semibold font-["Roboto_Condensed"]'>Games</p>
                 <Games />
-            </div>
+            </div> */}
 
             {/* Entertainment & Relaxation Section */}
             <div className='border-t-4 border-blue-900 p-4 pl-8 pr-8 text-center w-full  overflow-x-hidden'>
@@ -54,7 +55,7 @@ const Home = () => {
 
             {/* Friendly Chatbots Section */}
             <div className='border-t-4 border-blue-900 p-4 pl-8 pr-8 text-center w-full  overflow-x-hidden'>
-                <p className='text-xl font-semibold font-["Roboto_Condensed"]'>Friendly Chatbots</p>
+                <p className='text-xl font-semibold font-["Roboto_Condensed"]'>Chatbots</p>
                 <Chatbots />
             </div>
 
@@ -76,6 +77,17 @@ const YogaPage = () => {
         </>
     );
 };
+
+const Dass = () =>
+{
+    return(
+        <>
+        <Nav/>
+        <dass/>
+        <Footer/>
+        </>
+    )
+}
 
 const Quizz = () =>
 {
@@ -195,6 +207,7 @@ const App = () => {
                 <Route path="/WorkoutBot" element={<WBot/>} />
                 <Route path="/NutritionBot" element={<NBot/>} />
                 <Route path="/MovieBot" element={<MBot/>} />
+                <Route path="dass" element={<Dass/>} />
             </Routes>
         </Router>
     );

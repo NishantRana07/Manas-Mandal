@@ -1,90 +1,87 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import muzic from "../assets/Morning-Routine-Lofi-Study-Music(chosic.com).mp3";
 import { Link } from "react-router-dom";
 import "./nav.css";
-import logo from '../assets/manas.png'
+import logo from "../assets/manas.png";
 
 const Nav = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(null);
-
-  useEffect(() => {
-    // Try playing the audio when the component mounts
-    if (audioRef.current) {
-      audioRef.current
-        .play()
-        .then(() => setIsPlaying(true))
-        .catch((error) => console.log("Autoplay blocked", error));
-    }
-  }, []);
+  const [isPlaying, setIsPlaying] = useState(false); // Track if music is playing
+  const audioRef = useRef(null); // Reference to the audio element
 
   const playMusic = () => {
     if (audioRef.current) {
       if (isPlaying) {
-        audioRef.current.pause();
+        audioRef.current.pause(); // Pause the music
       } else {
         audioRef.current
           .play()
-          .catch((error) => console.log("Playback failed", error));
+          .catch((error) => console.log("Playback failed:", error)); // Play the music
       }
-      setIsPlaying(!isPlaying);
+      setIsPlaying(!isPlaying); // Toggle the playing state
     }
   };
 
   return (
-    <nav className="bg-gray-800 p-2 fixed top-0 left-0 w-full z-10">
-      <div className="flex justify-between items-center flex-row">
+    <nav className="bg-gray-800 p-4 fixed top-0 left-0 w-full z-10">
+      <div className="flex flex-wrap justify-between items-center space-y-2 md:space-y-0">
+        {/* Logo Section */}
         <Link to={`/`} className="flex items-center space-x-2">
-          <img src={logo} alt="Logo" className="h-12 w-12 rounded-full" />
-          <p className="text-2xl font-bold font-mono text-white">Manas Mandal</p>
+          <img src={logo} alt="Logo" className="h-10 w-10 rounded-full" />
+          <p className="text-xl font-bold font-mono text-white">Manas Mandal</p>
         </Link>
-        <div className="flex space-x-4">
+
+        {/* Navigation Links */}
+        <div className="flex flex-wrap items-center space-x-4">
           <Link to="">
-            <div className="text-black font-inter font-semibold hover:bg-gray-900 hover:text-white bg-gray-200 p-1 pl-2 pr-2 rounded transition duration-550 ease-in-out">
+            <div className="text-black font-inter font-semibold hover:bg-gray-900 hover:text-white bg-gray-200 px-3 py-1 rounded transition duration-300 ease-in-out">
               Task Manager
             </div>
           </Link>
           <Link to="">
-            <div className="text-black font-inter font-semibold hover:bg-gray-900 hover:text-white bg-gray-200 p-1 pl-2 pr-2 rounded transition duration-550 ease-in-out">
+            <div className="text-black font-inter font-semibold hover:bg-gray-900 hover:text-white bg-gray-200 px-3 py-1 rounded transition duration-300 ease-in-out">
               Personal Diary
             </div>
           </Link>
           <Link to="">
-            <div className="text-black font-inter font-semibold hover:bg-gray-900 hover:text-white bg-gray-200 p-1 pl-2 pr-2 rounded transition duration-550 ease-in-out">
+            <div className="text-black font-inter font-semibold hover:bg-gray-900 hover:text-white bg-gray-200 px-3 py-1 rounded transition duration-300 ease-in-out">
               About Us
             </div>
           </Link>
           <Link to="">
-            <div className="text-black font-inter font-semibold hover:bg-gray-900 hover:text-white bg-gray-200 p-1 pl-2 pr-2 rounded transition duration-550 ease-in-out">
+            <div className="text-black font-inter font-semibold hover:bg-gray-900 hover:text-white bg-gray-200 px-3 py-1 rounded transition duration-300 ease-in-out">
               Help
             </div>
           </Link>
 
-          {/* Audio element with autoplay on load */}
+          {/* Audio Element */}
           <audio ref={audioRef} src={muzic} preload="auto"></audio>
 
+          {/* Music Toggle Button */}
           <div className="toggleContainer">
-            <input type="checkbox" id="checkboxInput" />
-            <label htmlFor="checkboxInput" className="toggleSwitch">
-              <div className="speaker" onClick={playMusic}>
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 75 75">
-                  <path
-                    d="M39.389,13.769 L22.235,28.606 L6,28.606 L6,47.699 L21.989,47.699 L39.389,62.75 L39.389,13.769z"
-                    style={{ stroke: "#fff", strokeWidth: 5, strokeLinejoin: "round", fill: "#fff" }}
-                  ></path>
-                  <path
-                    d="M48,27.6a19.5,19.5 0 0 1 0,21.4M55.1,20.5a30,30 0 0 1 0,35.6M61.6,14a38.8,38.8 0 0 1 0,48.6"
-                    style={{ fill: "none", stroke: "#fff", strokeWidth: 5, strokeLinecap: "round" }}
-                  ></path>
+            <button
+              onClick={playMusic}
+              className="p-2 rounded-full bg-gray-700 hover:bg-gray-600 transition duration-300 h-10 w-10 flex items-center justify-center"
+            >
+              {isPlaying ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  className="w-5 h-5"
+                >
+                  <path d="M6 4h4v16H6zm8 0h4v16h-4z" />
                 </svg>
-              </div>
-              <div className="mute-speaker">
-                <svg version="1.0" viewBox="0 0 75 75" stroke="#fff" strokeWidth="5">
-                  <path d="m39,14-17,15H6V48H22l17,15z" fill="#fff" strokeLinejoin="round"></path>
-                  <path d="m49,26 20,24m0-24-20,24" fill="#fff" strokeLinecap="round"></path>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  className="w-5 h-5"
+                >
+                  <path d="M3 22v-20l18 10-18 10z" />
                 </svg>
-              </div>
-            </label>
+              )}
+            </button>
           </div>
         </div>
       </div>
