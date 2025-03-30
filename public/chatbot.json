@@ -1,0 +1,35 @@
+
+{
+  "chatbots": [
+    {
+      "title": "Cognitive Behavioral Therapist",
+      "description": "Specialized in helping with anxiety, depression, and stress management through CBT techniques",
+      "image": "Therapy.jpg",
+      "link": "/chatbot/cbt-therapist"
+    },
+    {
+      "title": "Mindfulness Coach",
+      "description": "Focuses on present-moment awareness and stress reduction through mindfulness practices",
+      "image": "Mindful.jpg",
+      "link": "/chatbot/mindfulness-coach"
+    },
+    {
+      "title": "Mental Health Counselor",
+      "description": "Specializes in trauma-informed care and emotional support",
+      "image": "councellor.jpg",
+      "link": "/chatbot/mental-health-counselor"
+    },
+    {
+      "title": "Positive Psychology Coach",
+      "description": "Helps build resilience and positive mental habits for long-term wellbeing",
+      "image": "coach.jpg",
+      "link": "/chatbot/positive-psychology"
+    },
+    {
+      "title": "Stress Management Specialist",
+      "description": "Expert in helping with workplace stress and burnout prevention",
+      "image": "specialist.jpg",
+      "link": "/chatbot/stress-management"
+    }
+  ]
+}
