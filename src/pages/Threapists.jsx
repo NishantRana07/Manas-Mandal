@@ -83,7 +83,7 @@ const Threapists = () => {
                 {/* Details */}
                 <div className="text-black text-[10px] p-1 text-start font-semibold">
                 <p>Name: Nishant</p>
-                <p>Description: Nishant is not good at talking to ladiz</p>
+                <p>Description: I am a licensed therapist specializing in cognitive-behavioral therapy (CBT), mindfulness-based practices, and stress management.</p>
                 </div>
 
                 {/* Button */}
@@ -178,5 +178,6 @@ const Threapists = () => {
     </>
   )
 }
+
 
 export default Threapists
